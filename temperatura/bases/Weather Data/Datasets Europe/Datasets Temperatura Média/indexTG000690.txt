@@ -1,0 +1,43 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on: 10-05-2011
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED: 
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://eca.knmi.nl
+
+FILE FORMAT (MISSING VALUE CODE = -999999):
+
+THIS FILE HOLDS DATA FOR STATION ESTONIA                                  VIRTSU                                   (STAID:    690)
+LATITUDE: dd:mm:ss +58:36:00
+LONGITUDE: ddd:mm:ss +023:30:00
+ELEVATION: m    8
+
+DATA IS FOR INDEX Mean of daily mean temperature (TG) with unit 0.01 Temperature (&#176;C)
+
+01-06 SOUID: Source identifier
+08-11 YEAR : YYYY
+13-20 ANNUAL DATA VALUES
+21-28 WINTER HALF YEAR DATA VALUES
+29-36 SUMMER HALF YEAR DATA VALUES
+37-44 WINTER (DJF) DATA VALUES
+45-52 SPRING (MAM) DATA VALUES
+53-60 SUMMER (JJA) DATA VALUES
+61-68 AUTUMN (SON) DATA VALUES
+69-76 JANUARY DATA VALUES
+etc. 
+157-164 DECEMBER DATA VALUES
+
+690    1999 -999999 -999999 -999999 -999999 -999999 -999999 -999999 -999999 -999999 -999999 -999999 -999999 -999999 -999999 -999999 -999999 854     360     56      
+690    2000 -999999 -999999 -999999 -9      644     1593    920     -30     -57     63      768     1085    1432    1695    1653    1106    1018    627     258     
+690    2001 -999999 -999999 -999999 -25     475     1761    868     24      -381    -171    560     997     1452    2084    1749    1341    1000    239     -406    
+690    2002 -999999 -999999 1428    -160    672     1815    522     -109    63      164     578     1275    1627    1901    1904    1261    276     19      -674    
+690    2003 -999999 -999999 -999999 -631    391     1757    780     -663    -549    -132    231     1053    1434    2065    1751    1341    586     439     204     
+690    2004 683     50      1319    -219    516     1623    799     -497    -381    -78     533     1093    1354    1694    1813    1406    763     229     192     
+690    2005 -999999 36      1342    -58     290     1700    981     24      -440    -609    429     1053    1425    1911    1754    1455    1002    488     -187    
+690    2006 761     -999999 1435    -404    324     1840    1021    -372    -679    -536    410     1101    1615    2009    1887    1565    1052    445     525     
+690    2007 815     300     1431    -30     719     1819    818     61      -745    366     575     1211    1706    1808    1941    1324    827     302     272     
+690    2008 843     302     1351    171     687     1677    865     35      210     161     749     1152    1526    1771    1728    1159    1002    429     165     
+690    2009 695     175     1365    -115    546     1658    828     -204    -326    -56     577     1119    1448    1779    1739    1510    614     367     -290    
+690    2010 577     -219    1450    -713    507     1903    685     -1117   -732    -184    454     1250    1492    2262    1943    1264    647     144     -597    
+690    2011 -999999 -184    -999999 -599    -999999 -999999 -999999 -317    -914    -126    488     -999999 -999999 -999999 -999999 -999999 -999999 -999999 -999999 
