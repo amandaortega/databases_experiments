@@ -56,8 +56,17 @@ y(1:5916) = x(86:end);
 X = X(2:end, :);
 y = y(2:end, :);
 
-csvwrite(strcat(path, 'X_real.csv'), X)
-csvwrite(strcat(path, 'Y_real.csv'), y)
+X_train = X(201 : 3200, :);
+Y_train = y(201 : 3200);
+
+X_test = X(5001 : 5500, :);
+Y_test = y(5001 : 5500);
+
+csvwrite(strcat(path, 'X_train.csv'), X_train)
+csvwrite(strcat(path, 'Y_train.csv'), Y_train)
+
+csvwrite(strcat(path, 'X_test.csv'), X_test)
+csvwrite(strcat(path, 'Y_test.csv'), Y_test)
 
 function x_dot = mackeyglass_eq(x_t, x_t_minus_tau, a, b)
     x_dot = -b*x_t + a*x_t_minus_tau/(1 + x_t_minus_tau^10.0);
