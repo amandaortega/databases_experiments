@@ -24,13 +24,14 @@ for t = 1 : total_samples
     y_now = y_next;
 end
 
-path = '/base/';
+path = strcat(pwd, '/base/');
 
 plot(y);
 set(gca,'xlim',[0, total_samples]);
 xlabel('t');
 ylabel('x(t)');
 title('Nonlinear Dynamic Plant Identification');
+savefig(strcat(path, 'plot.fig'));
 saveas(gcf, strcat(path, 'plot.png'));
 
 csvwrite(strcat(path, 'X_real.csv'), X)
