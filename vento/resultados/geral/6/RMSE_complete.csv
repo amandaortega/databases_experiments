@@ -1,0 +1,4 @@
+Site,FBeM_MTL,FBeM,ePL-KRLS,ePL+,eTs_plus,eTS_KRLS,eTS-LS-SVM,ePL,eTS,MLP,ANFIS,pred_lin
+0.0,0.058931121146,0.0628060861215,nan,nan,0.053798474414,nan,nan,0.0580228328826,nan,nan,nan,nan
+1.0,0.0655912534109,0.0692624336135,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+2.0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan

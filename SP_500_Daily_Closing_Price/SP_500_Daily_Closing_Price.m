@@ -1,4 +1,4 @@
-path = 'base/';
+path = 'base/';  
 
 x = csvread(strcat(path, 'GSPC.csv'));
 
@@ -38,7 +38,7 @@ saveas(gcf, strcat(path, 'original_flipped.png'));
 
 X = zeros(size(x, 1), 5);
 y = zeros(size(x, 1), 1);
-
+ 
 X(5:end, 1) = (x(1:size(x, 1) - 4) - value_min) / (value_max - value_min);
 X(4:end, 2) = (x(1:size(x, 1) - 3) - value_min) / (value_max - value_min);
 X(3:end, 3) = (x(1:size(x, 1) - 2) - value_min) / (value_max - value_min);
@@ -46,6 +46,14 @@ X(2:end, 4) = (x(1:size(x, 1) - 1) - value_min) / (value_max - value_min);
 X(:, 5) = (x - value_min) / (value_max - value_min);
 
 y(1:size(x, 1) - 1) = (x(2 : end) - value_min) / (value_max - value_min);
+
+% X(5:end, 1) = x(1:size(x, 1) - 4);
+% X(4:end, 2) = x(1:size(x, 1) - 3);
+% X(3:end, 3) = x(1:size(x, 1) - 2);
+% X(2:end, 4) = x(1:size(x, 1) - 1);
+% X(:, 5) = x;
+% 
+% y(1:size(x, 1) - 1) = x(2 : end);    
 
 X_train = X(1 : 14893, :);
 Y_train = y(1 : 14893);
